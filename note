@@ -1,0 +1,5 @@
+while(x < listaSpesa.length){
+    lista = `<li>${listaSpesa[x]}</li>`;
+    document.getElementById("listaSpesa").innerHTML = lista;
+    x++
+}
